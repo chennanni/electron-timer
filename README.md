@@ -32,6 +32,6 @@ Coming...
 
 ## References
 
-- https://electron.atom.io/docs/tutorial/quick-start (Very userful for getting started)
+- https://electron.atom.io/docs/tutorial/quick-start (VERY userful for getting started)
 - https://www.toptal.com/javascript/electron-cross-platform-desktop-apps-easy
 - https://medium.com/developers-writing/building-a-desktop-application-with-electron-204203eeb658
