@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Timer</title>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../../vendor/bootstrap-3.3.7.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <!-- Scripts -->
+    <script>delete module.exports</script>
+    <script src="../../vendor/jquery-3.1.1.js"></script>
+    <script src="../js/window.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div id="registerModule" class="container">
+      <div>
+  			   <h4><span>Countdown in minute</span></h4>
+           <br/>
+           <input id="countdownTime" type="number">
+      </div>
+      <br/>
+      <div>
+           <button type="button" onclick="startTimer()" class="btn btn-success">Start</button>
+      </div>
+    </div>
+
+    <div id="clockModule" style="display:none" class="container">
+      <div>
+          <h1><span id="remainingTimeText">start</span></h1>
+      </div>
+      <div>
+          <button type="button" onclick="toggleTimer()" class="btn btn-info">Stop/Start</button>
+          <button type="button" onclick="resetTimer()" class="btn btn-warning">Reset</button>
+      </div>
+
+    </div>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "name": "ElectronTimer",
+  "version": "1.0.0",
+  "description": "Electron Countdown Timer",
+  "repository": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron src/app.js"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^1.4.12"
+  }
+}
