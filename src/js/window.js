@@ -2,6 +2,14 @@ var timerIntervalId;
 var timerRemainingDuration;
 var statusFlag;
 
+function validator(){
+	if($('#countdownTime').val() > 0){
+			startTimer();
+	}else{
+		alert($('#countdownTime').val()+' it is not a valid number');
+	}
+}
+
 // http://stackoverflow.com/questions/20618355/the-simplest-possible-javascript-countdown-timer
 function startTimer() {
 	// show or hide windows
